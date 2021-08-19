@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Relative Paths</title>
+
+    <!-- back one folder -->
+    <link rel="stylesheet" type="text/css" href="./style copy.css" />
+
+    <!-- same path -->
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+
+    <!-- in current path, go down into assets folder -->
+    <link rel="stylesheet" type="text/css" href="assets/style.css" />
+
+    <!-- in current path, go down into assets folder then go down to style folder-->
+    <link rel="stylesheet" type="text/css" href="assets/style/style.css" />
+
+  </head>
+
+  <body>
+    <header>
+      <h1>Student Bio</h1>
+    </header>
+
+    <div class="container">
+      <section id="main-bio">
+        <h2>Paige Altemare</h2>
+
+        <img
+          id="bio-image"
+          src="https://i.pinimg.com/originals/91/2c/e1/912ce19bfeadb1e9e2b7cee8f0a4f1bc.jpg"
+          width="150px"
+          alt="Paige Altemare"
+        />
+
+        <p>
+          Write a short paragraph or two about yourself, or use placeholder text
+          from <a href="http://www.lipsum.com/">www.lipsum.com</a>
+        </p>
+      </section>
+
+      <section id="contact-info">
+        <h2>Contact Info</h2>
+        <ul>
+          <li><strong>Email:</strong> <a href="#">someplace@gmail.com</a></li>
+          <li><strong>Github:</strong> <a href="#">sampleName</a></li>
+          <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
+        </ul>
+      </section>
+    </div>
+  </body>
+</html>
